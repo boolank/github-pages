@@ -1,8 +1,8 @@
-<img src="https://raw.githubusercontent.com/felangel/bloc/master/docs/assets/bloc_logo_full.png" height="60" alt="Bloc" />
+<img src="https://raw.githubusercontent.com/boolank/github-pages/master/docs/assets/bloc_logo_full.png" height="60" alt="Bloc" />
 
-[![Build Status](https://travis-ci.org/felangel/bloc.svg?branch=master)](https://travis-ci.org/felangel/bloc)
-[![codecov](https://codecov.io/gh/felangel/Bloc/branch/master/graph/badge.svg)](https://codecov.io/gh/felangel/bloc)
-[![Star on GitHub](https://img.shields.io/github/stars/felangel/bloc.svg?style=flat&logo=github&colorB=deeppink&label=Stars)](https://github.com/felangel/bloc)
+[![Build Status](https://travis-ci.org/boolank/github-pages.svg?branch=master)](https://travis-ci.org/boolank/github-pages)
+[![codecov](https://codecov.io/gh/boolank/github-pages/branch/master/graph/badge.svg)](https://codecov.io/gh/boolank/github-pages)
+[![Star on GitHub](https://img.shields.io/github/stars/boolank/github-pages.svg?style=flat&logo=github&colorB=deeppink&label=Stars)](https://github.com/boolank/github-pages)
 [![Flutter.io](https://img.shields.io/badge/Flutter-Website-deepskyblue.svg)](https://flutter.io/docs/development/data-and-backend/state-mgmt/options#bloc--rx)
 [![Awesome Flutter](https://img.shields.io/badge/Awesome-Flutter-blue.svg?longCache=true)](https://github.com/Solido/awesome-flutter#standard)
 [![Flutter Samples](https://img.shields.io/badge/Flutter-Samples-teal.svg?longCache=true)](http://fluttersamples.com)
@@ -15,22 +15,22 @@ A predictable state management library that helps implement the [BLoC design pat
 
 | Package                                                                            | Pub                                                                                                             |
 | ---------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
-| [bloc](https://github.com/felangel/bloc/tree/master/packages/bloc)                 | [![pub package](https://img.shields.io/pub/v/bloc.svg)](https://pub.dartlang.org/packages/bloc)                 |
-| [flutter_bloc](https://github.com/felangel/bloc/tree/master/packages/flutter_bloc) | [![pub package](https://img.shields.io/pub/v/flutter_bloc.svg)](https://pub.dartlang.org/packages/flutter_bloc) |
-| [angular_bloc](https://github.com/felangel/bloc/tree/master/packages/angular_bloc) | [![pub package](https://img.shields.io/pub/v/angular_bloc.svg)](https://pub.dartlang.org/packages/angular_bloc) |
+| [bloc](https://github.com/boolank/github-pages/tree/master/packages/bloc)                 | [![pub package](https://img.shields.io/pub/v/bloc.svg)](https://pub.dartlang.org/packages/bloc)                 |
+| [flutter_bloc](https://github.com/boolank/github-pages/tree/master/packages/flutter_bloc) | [![pub package](https://img.shields.io/pub/v/flutter_bloc.svg)](https://pub.dartlang.org/packages/flutter_bloc) |
+| [angular_bloc](https://github.com/boolank/github-pages/tree/master/packages/angular_bloc) | [![pub package](https://img.shields.io/pub/v/angular_bloc.svg)](https://pub.dartlang.org/packages/angular_bloc) |
 
 ## Overview
 
-<img src="https://raw.githubusercontent.com/felangel/bloc/master/docs/assets/bloc_architecture.png" alt="Bloc Architecture" />
+<img src="https://raw.githubusercontent.com/boolank/github-pages/master/docs/assets/bloc_architecture.png" alt="Bloc Architecture" />
 
 The goal of this library is to make it easy to separate _presentation_ from _business logic_, facilitating testability and reusability.
 
 ## Documentation
 
 - [Official Documentation](https://felangel.github.io/bloc)
-- [Bloc Package](https://github.com/felangel/Bloc/tree/master/packages/bloc/README.md)
-- [Flutter Bloc Package](https://github.com/felangel/Bloc/tree/master/packages/flutter_bloc/README.md)
-- [Angular Bloc Package](https://github.com/felangel/Bloc/tree/master/packages/angular_bloc/README.md)
+- [Bloc Package](https://github.com/boolank/github-pages/tree/master/packages/bloc/README.md)
+- [Flutter Bloc Package](https://github.com/boolank/github-pages/tree/master/packages/flutter_bloc/README.md)
+- [Angular Bloc Package](https://github.com/boolank/github-pages/tree/master/packages/angular_bloc/README.md)
 
 ## Examples
 
@@ -75,29 +75,29 @@ The goal of this library is to make it easy to separate _presentation_ from _bus
 
 ### Dart
 
-- [Counter](https://github.com/felangel/Bloc/tree/master/packages/bloc/example) - an example of how to create a `CounterBloc` (pure dart).
+- [Counter](https://github.com/boolank/github-pages/tree/master/packages/bloc/example) - an example of how to create a `CounterBloc` (pure dart).
 
 ### Flutter
 
 - [Counter](https://felangel.github.io/bloc/#/fluttercountertutorial) - an example of how to create a `CounterBloc` to implement the classic Flutter Counter app.
-- [Form Validation](https://github.com/felangel/bloc/tree/master/examples/flutter_form_validation) - an example of how to use the `bloc` and `flutter_bloc` packages to implement form validation.
-- [Bloc with Stream](https://github.com/felangel/bloc/tree/master/examples/flutter_bloc_with_stream) - an example of how to hook up a `bloc` to a `Stream` and update the UI in response to data from the `Stream`.
+- [Form Validation](https://github.com/boolank/github-pages/tree/master/examples/flutter_form_validation) - an example of how to use the `bloc` and `flutter_bloc` packages to implement form validation.
+- [Bloc with Stream](https://github.com/boolank/github-pages/tree/master/examples/flutter_bloc_with_stream) - an example of how to hook up a `bloc` to a `Stream` and update the UI in response to data from the `Stream`.
 - [Infinite List](https://felangel.github.io/bloc/#/flutterinfinitelisttutorial) - an example of how to use the `bloc` and `flutter_bloc` packages to implement an infinite scrolling list.
 - [Login Flow](https://felangel.github.io/bloc/#/flutterlogintutorial) - an example of how to use the `bloc` and `flutter_bloc` packages to implement a Login Flow.
 - [Firebase Login](https://felangel.github.io/bloc/#/flutterfirebaselogintutorial) - an example of how to use the `bloc` and `flutter_bloc` packages to implement login via Firebase.
 - [Github Search](https://felangel.github.io/bloc/#/flutterangulargithubsearch) - an example of how to create a Github Search Application using the `bloc` and `flutter_bloc` packages.
 - [Weather](https://felangel.github.io/bloc/#/flutterweathertutorial) - an example of how to create a Weather Application using the `bloc` and `flutter_bloc` packages. The app uses a `RefreshIndicator` to implement "pull-to-refresh" as well as dynamic theming.
 - [Todos](https://felangel.github.io/bloc/#/fluttertodostutorial) - an example of how to create a Todos Application using the `bloc` and `flutter_bloc` packages.
-- [Timer](https://github.com/felangel/bloc/tree/master/examples/flutter_timer) - an example of how to create a Timer using the `bloc` and `flutter_bloc` packages.
+- [Timer](https://github.com/boolank/github-pages/tree/master/examples/flutter_timer) - an example of how to create a Timer using the `bloc` and `flutter_bloc` packages.
 
 ### Web
 
-- [Counter](https://github.com/felangel/Bloc/tree/master/examples/angular_counter) - an example of how to use a `CounterBloc` in an AngularDart app.
-- [Github Search](https://github.com/felangel/Bloc/tree/master/examples/github_search/angular_github_search) - an example of how to create a Github Search Application using the `bloc` and `angular_bloc` packages.
+- [Counter](https://github.com/boolank/github-pages/tree/master/examples/angular_counter) - an example of how to use a `CounterBloc` in an AngularDart app.
+- [Github Search](https://github.com/boolank/github-pages/tree/master/examples/github_search/angular_github_search) - an example of how to create a Github Search Application using the `bloc` and `angular_bloc` packages.
 
 ### Flutter + Web
 
-- [Github Search](https://github.com/felangel/Bloc/tree/master/examples/github_search) - an example of how to create a Github Search Application and share code between Flutter and AngularDart.
+- [Github Search](https://github.com/boolank/github-pages/tree/master/examples/github_search) - an example of how to create a Github Search Application and share code between Flutter and AngularDart.
 
 ## Articles
 
